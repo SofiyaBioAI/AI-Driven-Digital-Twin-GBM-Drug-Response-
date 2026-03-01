@@ -38,6 +38,7 @@ All preprocessing steps are documented and reproducible using the provided noteb
 
 
 🧬 Methodological Framework
+
 1. Data Processing
 . Binary encoding of somatic mutation profiles
 . Integration of pharmacogenomic IC50 response values
@@ -58,6 +59,7 @@ All preprocessing steps are documented and reproducible using the provided noteb
 
 
 📊 Model Performance
+
 Metric	Value
 Mean Cross-Validated AUC	0.76
 AUC Standard Deviation	± 0.18
@@ -65,6 +67,7 @@ Model Type	Sparse Logistic Regression
 Validation Strategy	Repeated 5-Fold Cross-Validation
 
 Interpretation
+
 . Demonstrates moderate discriminative capability using mutation-only features
 . Captures biologically meaningful predictive signal
 . Variability reflects tumor heterogeneity and dataset scale
@@ -72,6 +75,7 @@ Interpretation
 
 
 🧪 Stable Genomic Determinants Identified
+
 Consistently selected predictors across validation folds:
 TP53
 PTEN
@@ -81,6 +85,7 @@ These genes are mechanistically associated with tumor suppressor regulation and 
 
 
 🏥 Translational Applications
+
 1️⃣ Clinical Decision Support Systems (CDSS)
 . Mutation-informed therapy prioritization
 . Molecular tumor board support
@@ -114,6 +119,7 @@ Transparent modeling is essential for clinical AI adoption; this framework prior
 
 
 🛠 Technology Stack
+
 1. Python
 2. NumPy
 3. Pandas
@@ -132,6 +138,7 @@ Cloud-based inference services
 
 
 📁 Repository Structure
+
 GBM-Digital-Twin-Drug-Response/
 │
 ├── data/                  # Processed mutation & response datasets
