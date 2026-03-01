@@ -1,5 +1,6 @@
 🧠 AI-Driven Digital Twin for Mutation-Based Targeted Therapy Response Prediction in Glioblastoma
 
+
 🔬 Project Overview
 
 This repository presents an interpretable Artificial Intelligence–driven Digital Twin framework for predicting targeted therapy response in Glioblastoma (GBM) using somatic genomic mutation signatures and pathway-informed modeling.
@@ -40,17 +41,20 @@ All preprocessing steps are documented and reproducible using the provided noteb
 🧬 Methodological Framework
 
 1. Data Processing
+   
 . Binary encoding of somatic mutation profiles
 . Integration of pharmacogenomic IC50 response values
 . Dichotomization into Sensitive vs Resistant classes
 
 2. Modeling Strategy
+   
 . Sparse Logistic Regression (L1 Regularization)
 . Embedded feature selection
 . Coefficient-based interpretability
 . Dimensionality control to mitigate overfitting
 
 3.Validation & Robustness
+
 . Repeated 5-Fold Cross-Validation
 . Receiver Operating Characteristic (ROC) analysis
 . Mean Area Under the Curve (AUC) computation
@@ -87,27 +91,32 @@ These genes are mechanistically associated with tumor suppressor regulation and 
 🏥 Translational Applications
 
 1️⃣ Clinical Decision Support Systems (CDSS)
+
 . Mutation-informed therapy prioritization
 . Molecular tumor board support
 . Probabilistic sensitivity estimation
 
 2️⃣ Precision Oncology Platforms
+
 . Integration with hospital genomic sequencing workflows
 . AI-assisted stratification of patient subgroups
 . Mutation-driven therapy modeling
 
 3️⃣ Pharmaceutical & Drug Development
+
 . Preclinical mutation-response modeling
 . Identification of genomically defined responder subpopulations
 . Simulation-based hypothesis generation
 
 4️⃣ Digital Twin Expansion
+
 . Multi-omics integration (transcriptomics, CNV, methylation)
 . Pathway-level perturbation modeling
 . Tumor evolution simulation frameworks
 
 
 🧠 Clinical Relevance
+
 ✔ Interpretable non–black-box architecture
 ✔ Mutation-grounded biological rationale
 ✔ Embedded feature selection
