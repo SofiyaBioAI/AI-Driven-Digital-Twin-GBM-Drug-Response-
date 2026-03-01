@@ -7,7 +7,7 @@ This repository presents an interpretable Artificial Intelligence–driven Digit
 
 The framework models tumor-specific mutation landscapes to simulate therapeutic response behavior and estimate sensitivity to the MEK inhibitor Trametinib.
 This project demonstrates how mutation-driven computational modeling can contribute to clinically interpretable precision oncology systems.
-
+ 
 
 🎯 Clinical Motivation
 
